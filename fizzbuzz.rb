@@ -3,18 +3,14 @@
 def fizzbuzz(integer)
   if (integer % 3 == 0 && integer % 5 == 0)
     return "Fizzbuzz"
-
   end
   elsif (integer % 3 == 0)
     return "Fizz"
-
   end
   elsif (integer % 5 == 0)
     return "Buzz"
-
   end
   else
     return nil
-
   end
 end
